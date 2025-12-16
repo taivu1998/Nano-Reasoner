@@ -1,0 +1,24 @@
+seed: 42
+
+model:
+  name: "Qwen/Qwen2.5-Math-1.5B-Instruct"
+
+data:
+  dataset_name: "openai/gsm8k"  # Options: openai/gsm8k, HuggingFaceH4/openr1-math-220k
+
+training:
+  algo: "SFT"
+  group_size: 1
+  batch_size: 4
+  epochs: 1
+  learning_rate: 2.0e-5
+  max_samples: 5000  # Cold start uses smaller subset
+  ppo_epochs: 1  # Not used for SFT but kept for consistency
+  save_steps: 100
+
+paths:
+  output_dir: "checkpoints/sft_cold_start"
+
+logging:
+  use_wandb: false
+  project: "UnifiedRL"

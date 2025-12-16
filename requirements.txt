@@ -1,0 +1,26 @@
+# Core dependencies
+numpy<2.0.0
+torch>=2.4.0
+transformers>=4.40.0
+peft>=0.10.0
+bitsandbytes>=0.43.0
+accelerate>=0.30.0
+
+# Utilities
+scipy
+pyyaml
+tqdm
+datasets>=2.18.0
+
+# Logging (optional)
+wandb
+
+# Unsloth - Installation varies by CUDA version
+# For CUDA 12.1: pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
+# For CUDA 11.8: pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
+# For CPU/other: See https://github.com/unslothai/unsloth#installation
+unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
+
+# For type checking (development)
+# mypy
+# types-PyYAML

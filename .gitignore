@@ -1,0 +1,144 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Environments
+.env
+.venv
+env/
+venv/
+.python-version
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Project specific
+checkpoints/
+logs/
+wandb/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Model cache
+.cache/
+huggingface/
+.huggingface/
+~/.cache/huggingface/
+
+# Data files (if large)
+*.csv
+*.json
+*.jsonl
+!configs/*.yaml
+!configs/*.json
+
+# Large data files
+*.parquet
+*.arrow
+*.feather
+data/
+datasets/
+
+# Model files
+*.ckpt
+*.onnx
+*.tflite
+*.pb
+*.h5
+*.hdf5
+models/
+outputs/
+
+# Serialized objects
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.joblib
+
+# Compressed files
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+*.rar
+*.7z
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude CLI
+.claude/
+
+# Build artifacts
+gemini_output.txt
+build_repo.py
+
+# Notebooks checkpoints (already covered but explicit)
+*.ipynb_checkpoints/
