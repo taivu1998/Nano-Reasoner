@@ -55,8 +55,8 @@ Train small language models to reason like giants. Nano-Reasoner implements stat
 | **GRPO** | Group Relative Policy Optimization | Low | Baseline, stable training |
 | **Dr.GRPO** | Length-corrected GRPO | Low | Avoiding length bias |
 | **PPO** | Proximal Policy Optimization | High | When you have VRAM to spare |
-| **GSPO** | Geometric Sequence Policy Optimization | Low | Sequence-level optimization |
-| **DAPO** | Decoupled Advantage Policy Optimization | Low | Dynamic sampling scenarios |
+| **GSPO** | Group Sequence Policy Optimization | Low | Sequence-level optimization |
+| **DAPO** | Decoupled Clip and Dynamic sAmpling Policy Optimization | Low | Dynamic sampling scenarios |
 | **GRPO-LEAD** | Length & Difficulty Aware GRPO | Low | Curriculum-style training |
 
 ---
