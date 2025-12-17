@@ -1,4 +1,4 @@
-# Nano-Reasoner
+# Nano-Reasoner: Unified Post-Training Stack for Math Reasoning Models
 
 **A Unified Reinforcement Learning Framework for Mathematical Reasoning**
 
