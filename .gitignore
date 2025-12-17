@@ -69,6 +69,7 @@ venv.bak/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 
 # Project specific
 checkpoints/
